@@ -58,18 +58,18 @@
 **Cardinality**: $ associated entities on each side of the relo 
 **Participation**: must every entity being in the relo?
 
-! [participation](/Personal%20Projects/personal-notes/comp3311/lectures/participation.png)
+! [participation](participation.png)
 
 ### Relationship Degree
-! [degree](/Personal%20Projects/personal-notes/comp3311/lectures/degree.png)
+! [degree](degree.png)
 
 
 ### Relationship Cardinality 
-! [participation](/Personal%20Projects/personal-notes/comp3311/lectures/cardinality.png)
+! [participation](cardinality.png)
 
 ### Attribute Notations
-! [notations](/Personal%20Projects/personal-notes/comp3311/lectures/notations.png)
+! [notations](notations.png)
 
 ### EXERCISE: Relationship Semantics 
 
-! [semantics](/Personal%20Projects/personal-notes/comp3311/lectures/semantics.png)
+! [semantics](semantics.png)
