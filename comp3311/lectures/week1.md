@@ -48,7 +48,7 @@
   - attributes associated with entity/relationship sets
   - connections between entity and relationship sets
 
-! [er-model](/Personal%20Projects/personal-notes/comp3311/lectures/er-model.png)
+! [er-model](er-model.png)
 
 **Relationship**: an association among several entities 
   - Customer (9876) is the owner of Account (12345)
