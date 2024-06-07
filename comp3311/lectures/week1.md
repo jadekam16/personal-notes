@@ -63,7 +63,6 @@
 ### Relationship Degree
 ! [degree](degree.png)
 
-
 ### Relationship Cardinality 
 ! [participation](cardinality.png)
 
