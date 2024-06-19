@@ -18,6 +18,10 @@ In September 2017, Equifax, one of the largest consumer credit reporting agencie
 company failed to patch despite being aware of it. Attackers exploited this vulnerability to gain access to Equifax’s servers and steal sensitive information, including Social Security numbers, driver’s license numbers, credit card numbers, and full names. This incident
 highlighted the critical importance of robust cybersecurity measures and timely patch management.
 
+In February 2020, the United States government indicted members of China's People's Liberation Army for hacking into Equifax and plundering sensitive data as part of a massive heist that also included stealing trade secrets, though the Chinese Communist Party denied these claims.
+
+MORE INFO: https://www.wikiwand.com/en/2017_Equifax_data_breach 
+
 ## Individual Tasks (before the tutorial):
 Review the details of the Equifax data breach. Your preparation should focus on:
 
