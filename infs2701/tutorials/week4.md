@@ -22,6 +22,81 @@ In February 2020, the United States government indicted members of China's Peopl
 
 MORE INFO: https://www.wikiwand.com/en/2017_Equifax_data_breach 
 
+## MY OWN SUMMARY: Equifax Data Breach Overview
+### Breach Details
+- Timeline: The breach occurred between May and July 2017.
+- Scope:
+  - Americans: 147.9 million
+  - British citizens: 15.2 million
+  - Canadians: Approximately 19,000, with an additional 11,670 later revealed.
+- Compromised Data: Included names, Social Security numbers, birth dates, addresses, driver's license numbers, credit card numbers (209000 U.S. consumers), and dispute documents with personal information (182,000 U.S. consumers).
+
+### Background and Security Failures
+- 2015 Internal Audit: Identified significant unpatched vulnerabilities and inadequate patching processes. The audit found:
+  - A large backlog of vulnerabilities.
+  - Incomplete asset inventory by IT staff.
+  - Patching based on an honor system, without considering the criticality of IT assets.
+- Apache Struts Vulnerability: A crucial security patch was released on March 7, 2017. Equifax failed to apply this update promptly.
+- Hacker Activity: By March 10, 2017, unknown groups were probing for unpatched Struts instances.
+
+### Intrusion
+- Start Date: May 12, 2017.
+- Method: Hackers exploited the Struts vulnerability to access internal servers. They:
+  - Stole internal credentials.
+  - Masqueraded as authorized users to search databases.
+  - Used encryption to mask their activities.
+  - Conducted over 9000 scans and transferred data off the servers without detection.
+- Duration: 76 days until discovery on July 29, 2017.
+
+### Discovery and Initial Response
+- Detection: Equifax’s IT team renewed an SSL certificate on July 29, 2017, leading to the discovery of suspicious activity.
+- Response:
+  - The exploit was shut down by July 30, 2017.
+  - Equifax used at least 34 servers across 20 countries during the breach.
+  - Revealed flaws: insecure network design, insufficient encryption, and ineffective breach detection.
+
+### Public Disclosure and Immediate Actions
+- Public Announcement: September 7, 2017.
+- Stock Impact: Equifax shares dropped 13% the following day.
+- Executive Changes: CIO and CSO resigned on September 15, 2017.
+- Investigations: Cybersecurity firm Mandiant was hired on August 2, 2017.
+
+### Legal and Financial Repercussions
+- Litigation: Numerous lawsuits filed, with some consumers winning substantial claims.
+- CFPB Investigation: Initiated by Richard Cordray, scaled back by Mick Mulvaney.
+- Congressional Actions: Bill introduced to reduce consumer protections but delayed after criticism.
+
+### Settlement
+- Agreement Date: July 22, 2019.
+- Settlement Amount: $575 million, covering victim compensation, state fines, and CFPB fines.
+- Claims Website: EquifaxBreachSettlement.com set up for affected individuals to file claims.
+
+### Criticism and Issues
+- Delay in Disclosure: Criticized for the gap between breach discovery and public announcement.
+- Insider Trading Allegations: Three executives sold nearly $1.8 million in stock before the public announcement.
+- Insecure Website: The breach notification site resembled a phishing site, leading to confusion and criticism.
+- Arbitration Clause: Initial terms included an arbitration clause, later retracted after public outcry.
+
+### Government and Industry Responses
+- New Security Measures: Equifax announced free lifetime credit control options for consumers starting early 2018.
+- Leadership Changes: New CEO Paulino do Rego Barros Jr. and board member Scott A. McGregor with cybersecurity expertise.
+- UK Penalty: Financial Conduct Authority fined Equifax £11,164,400.
+
+### Perpetrators
+- Indictment: February 2020, U.S. indicted four members of China’s military.
+- Chinese Government’s Stance: Denied involvement in the hack.
+
+### Long-term Consequences and Analysis
+- Extended Impact: By 2018, Equifax updated the number of affected records, including additional millions of American and UK consumers.
+- Dark Web Sales: As of May 2021, the stolen data had not appeared for sale, suggesting possible nation-state motives beyond financial gain.
+
+### Criticisms of Equifax's Response
+- Slow Public Disclosure: The delay raised concerns about transparency and consumer protection.
+- Executive Stock Sales: Prompted investigations for possible insider trading violations.
+- Website Security Flaws: The initial response sites had significant security issues, adding to public distrust.
+
+The Equifax data breach underscores the critical importance of robust cybersecurity measures, timely updates and patches, transparent communication, and comprehensive breach detection systems to protect sensitive consumer information and maintain public trust.
+
 ## Individual Tasks (before the tutorial):
 Review the details of the Equifax data breach. Your preparation should focus on:
 
