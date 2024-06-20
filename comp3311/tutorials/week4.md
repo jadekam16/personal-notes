@@ -34,6 +34,8 @@ WHERR condition;
 ```
 
 **NOTE: USE SINGLE QUOTES FOR STRINGS** 
+**NICKNAMES FROM TABLES => ... from parts p** 
+**duplicates => ..... select  distinct c.sid** 
 
 ALTERING TABLES 
 ```
