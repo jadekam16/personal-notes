@@ -87,6 +87,9 @@ these methods are outlined in <regex.py>.
 'Xbbc'
 ```
 
+### re.sub 
+- ```re.sub(regex, replacement, string, count, flags)```
+  - return *string* with anywhere *regex* matches, substituted by *replacement*
 ### re.findall
 - ```re.findall``` returns a list of the matched strings
 ```

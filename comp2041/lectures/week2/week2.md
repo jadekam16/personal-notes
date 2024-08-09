@@ -39,4 +39,70 @@ end loop
   - parameter and variable expansion e.g. $HOME --> /home/z1234567
   - arithmethic expansion: e.g. $((6 * 7)) --> 42 
   - command substitution e.g. $(whoami) --> z1234567
-  - 
+  
+### echo
+- prints args to stdout 
+- mainly used in scripts 
+- useful options 
+    - -n: do not output a trailing newline 
+    - -e: enale interpretation of backlash escapes 
+- equivalent to a print statement fr 
+```
+$ echo Hello Andrew
+Hello Andrew
+$ echo '\n'
+\n
+$ echo -e '\n'
+$ echo -n Hello Andrew
+Hello Andrew$
+```
+
+### shell variables 
+- do not need to be declared/initialised 
+- $name replace with value of variable name 
+- name=value assigns value to name, no spaces around = 
+- '
+
+### $(command)
+- command expansion 
+- $(command) is evaluated by running command 
+  - stdout is captured from command 
+```
+$ now="$(date)"
+$ echo $now
+Sun 23 Jun 1912 02:31:00 GMT
+$
+```
+- so basically, it executes a command and stores the result in the variable. 
+
+### single/double quotes
+- single quotes '' group the characters into a single word 
+  - no characters interpreted specially inside single quotes 
+  - cannot put single quotes in single quotes, can put double quotes 
+- double quotes "" group the characters within into a single word 
+  - can put single quotes 
+  - special characters works here 
+```
+$ answer=42
+$ echo "The answer is $answer."
+The answer is 42.
+$ echo 'The answer is $answer.'
+The answer is $answer.
+```
+
+### << 
+- <<word called a here document 
+  - multi-line string 
+```
+$ name=Andrew
+$ tr a-z A-Z <<END-MARKER
+Hello $name
+How are you
+Good bye
+END-MARKER
+HELLO ANDREW
+HOW ARE YOU
+GOOD BYE
+```
+
+### arithmetic 
